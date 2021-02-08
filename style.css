@@ -1,0 +1,16 @@
+#meals-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.meal-box {
+  border: 1px solid #dbf3ed;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+.meal-box img {
+  width: 250px;
+  border-radius: 20px;
+}
